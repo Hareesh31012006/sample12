@@ -3,11 +3,17 @@ streamlit==1.29.0
 rich>=10.14.0,<14
 
 # Finance library
-yfinance
+yfinance==0.2.28
 
 # TensorFlow CPU compatible with NumPy
 tensorflow-cpu==2.13.0
 numpy==1.24.3
 
-# PyTorch for Python 3.10
-torch==2.2.0
+# PyTorch CPU
+torch==2.2.0+cpu
+# If you need torchvision, add:
+# torchvision==0.18.0+cpu
+
+# Optional: extra utils
+pandas==2.1.1
+matplotlib==3.8.0
