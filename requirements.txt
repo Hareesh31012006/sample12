@@ -5,9 +5,9 @@ rich>=10.14.0,<14
 # Finance library
 yfinance
 
-# TensorFlow CPU
+# TensorFlow CPU and compatible numpy
 tensorflow-cpu==2.13.0
-numpy==1.24.3  # compatible with tensorflow-cpu 2.13.0
+numpy==1.24.3
 
-# PyTorch
+# PyTorch (compatible with Python 3.10)
 torch==2.2.0
