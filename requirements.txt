@@ -1,13 +1,13 @@
-# Streamlit
+# Streamlit and logging
 streamlit==1.29.0
 rich>=10.14.0,<14
 
 # Finance library
 yfinance
 
-# TensorFlow CPU and compatible numpy
+# TensorFlow CPU compatible with NumPy
 tensorflow-cpu==2.13.0
 numpy==1.24.3
 
-# PyTorch (compatible with Python 3.10)
+# PyTorch for Python 3.10
 torch==2.2.0
