@@ -1,19 +1,15 @@
-streamlit==1.31.1
-yfinance==0.2.38
-pandas==2.1.4
-numpy==1.26.4
-requests==2.31.0
-textblob==0.17.1
-scikit-learn==1.3.2
-
-# PyTorch CPU build (Streamlit Cloud compatible)
-torch==2.1.0+cpu
-torchvision==0.16.0+cpu
-torchaudio==2.1.0+cpu
--f https://download.pytorch.org/whl/cpu/torch_stable.html
-
-# Transformers (safe version)
-transformers==4.34.0
-
-# TensorFlow CPU (Streamlit Cloud compatible)
+# TensorFlow CPU version
 tensorflow-cpu==2.13.0
+
+# Compatible NumPy version
+numpy==1.24.3
+
+# Streamlit for your app
+streamlit==1.29.0
+
+# Optional but useful packages
+pandas==2.1.0
+matplotlib==3.7.2
+scikit-learn==1.3.0
+rich==13.5.3
+
