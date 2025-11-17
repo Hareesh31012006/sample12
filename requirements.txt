@@ -1,15 +1,8 @@
-# TensorFlow CPU version
 tensorflow-cpu==2.13.0
-
-# Compatible NumPy version
 numpy==1.24.3
-
-# Streamlit for your app
 streamlit==1.29.0
-
-# Optional but useful packages
 pandas==2.1.0
 matplotlib==3.7.2
 scikit-learn==1.3.0
 rich==13.5.3
-
+yfinance==0.2.28
